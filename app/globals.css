@@ -1,0 +1,25 @@
+@font-face {
+  font-family: yekan;
+  src: url(/public/font/Lahzeh-FaNumVF.ttf);
+}
+@font-face {
+  font-family: raviFaNum;
+  src: url(/public/font/RaviFaNum-Medium.ttf);
+}
+
+body{
+  direction: rtl;
+  /* font-family: yekan ; */
+  background-color: var(--main-color);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,0 +1,71 @@
+.product_content {
+    display: flex;
+  
+}
+
+.product_content img {
+    height: 400px;
+}
+
+.right_section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product_desc{
+    background-color: var(--main-color);
+    width: 47ch;
+    height: 26ch;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 18px;
+}
+.product_desc span{
+    color: var(--color-green);
+    font-weight: 500;
+    font-family: rokhFaNum;
+    font-size: 16px;
+}
+.product_desc p{
+    font-family: yekanBakh;
+    font-weight: 600;
+    font-size: 30px;
+}
+.flex_div{
+    display: flex;
+}
+.flex_div div{
+    flex: 1;
+    text-align: center;
+    margin: 7px;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    background-color:rgba(135, 47, 167, 0.26) ;
+    border: 1px solid rgba(75, 32, 96, 0.349) ; 
+    border-radius: 10px;
+}
+.flex_div div:first-child{
+    
+    background-color:#B7B74C3D ;
+    border: 1px solid #b7b74c;
+}
+.flex_div div:last-child{
+    background-color:rgba(239, 123, 56, 0.258) ;
+    border: 1px solid rgb(239, 123, 56) ;
+}
+.link{
+    color: white;
+    padding: 3px 15px;
+    margin:7px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: var(--color-green);
+}
